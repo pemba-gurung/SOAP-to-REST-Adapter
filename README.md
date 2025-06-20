@@ -40,17 +40,6 @@ Before you begin, ensure you have met the following requirements:
 node  soapAPIGateway.js
 ```
 
-````### NOT IMPLEMENTED/TO DO
-### Development Mode
-```bash
-npm run dev
-```
-
-### Building for Production
-```bash
-npm run build
-````
-
 ## 📁 Project Structure
 
 SOAP-to-REST-Adapter/
@@ -91,6 +80,17 @@ Depends on SOAP operations
 
 ### Not implemented/TO DO
 ````
+````### NOT IMPLEMENTED/TO DO
+### Development Mode
+```bash
+npm run dev
+```
+
+### Building for Production
+```bash
+npm run build
+``
+
 ## 🧪 Testing
 
 Run tests with:
