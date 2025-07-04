@@ -76,7 +76,7 @@ app.get("/json", (req, resp) => {
 });
 
 // get request and return the result of soap function
-app.post("/app/:serviceName/:portName/:methodName", (req, resp) => {
+app.post("/api/:serviceName/:portName/:methodName", (req, resp) => {
   const { serviceName, portName, methodName } = req.params;
   console.log("Request received for service:", req.params);
   console.log(
